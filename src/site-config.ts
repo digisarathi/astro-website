@@ -1,23 +1,19 @@
 export const siteConfig = {
-  author: 'Kevin Wong',
-  title: 'Vitesse theme for Astro',
-  subtitle: 'Vitesse theme for Astro, supports Vue and UnoCSS.',
-  description: 'A Minimal, SEO-friendly portfolio and blog theme for Astro.',
+  company: 'digiSarathi IT Solutions Pvt Ltd',
+  author: 'Admin',
+  title: 'digiSarathi',
+  subtitle: '#Tech4Growth, #Tech4Good',
+  description:
+    'We make cost-effective and efficient solutions for your business.',
   image: {
     src: '/hero.jpg',
     alt: 'Website Main Image',
   },
-  email: 'kevinwong865@gmail.com',
+  email: 'admin@digisarathi.com',
   socialLinks: [
     {
-      text: 'GitHub',
-      href: '',
-      icon: 'i-simple-icons-github',
-      header: 'i-ri-github-line',
-    },
-    {
       text: 'Twitter',
-      href: '',
+      href: 'http://x.com/digisarathi',
       icon: 'i-simple-icons-x',
       header: 'i-ri-twitter-x-line',
     },
@@ -44,20 +40,20 @@ export const siteConfig = {
     },
     navLinks: [
       {
-        text: 'Blog',
+        text: 'About Us',
+        href: '/about',
+      },
+      {
+        text: 'Corporates',
+        href: '/corporates',
+      },
+      {
+        text: 'Nonprofits',
+        href: '/nonprofits',
+      },
+      {
+        text: 'Insights',
         href: '/blog',
-      },
-      {
-        text: 'Notes',
-        href: '/blog/notes',
-      },
-      {
-        text: 'Talks',
-        href: '/blog/talks',
-      },
-      {
-        text: 'Projects',
-        href: '/projects',
       },
     ],
   },
@@ -80,19 +76,19 @@ export const siteConfig = {
   footer: {
     navLinks: [
       {
-        text: 'Posts Props',
+        text: 'About Us',
         href: '/posts-props',
       },
       {
-        text: 'Markdown Style',
+        text: 'Services',
         href: '/md-style',
       },
       {
-        text: 'View on Astro',
+        text: 'Terms of Service',
         href: 'https://astro.build/themes/details/vitesse-theme-for-astro/',
       },
       {
-        text: 'GitHub Repository',
+        text: 'Privacy Policy',
         href: 'https://github.com/kevinwong865/astro-theme-vitesse',
       },
     ],
